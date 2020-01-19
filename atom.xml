@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.ljchengx.cn/"/>
-  <updated>2020-01-19T08:54:56.294Z</updated>
+  <updated>2020-01-19T09:00:03.573Z</updated>
   <id>http://www.ljchengx.cn/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>项目整体管理</title>
+    <link href="http://www.ljchengx.cn/2020/01/19/%E9%A1%B9%E7%9B%AE%E6%95%B4%E4%BD%93%E7%AE%A1%E7%90%86/"/>
+    <id>http://www.ljchengx.cn/2020/01/19/%E9%A1%B9%E7%9B%AE%E6%95%B4%E4%BD%93%E7%AE%A1%E7%90%86/</id>
+    <published>2020-01-19T08:56:06.000Z</published>
+    <updated>2020-01-19T09:00:03.573Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Sun Jan 19 2020 17:00:11 GMT+0800 (GMT+08:00) --><p><strong>项目整体管理</strong></p><p><strong>整体概述</strong></p><p>知识领域包括：识别 确认 结合 统一和协调</p><p>最重要职责 ：整合</p><p>通过沟通来协调 通过协调来整合</p><p>三从四得一关联</p><p>三从：</p><ol><li>从过程知输出 2. 从输出想输入 3. 从输入选工具</li></ol><p>四得：</p><ol><li>得文件计划 2. 得成果数据 3. 得变更请求 4. 得过程资产</li></ol><p>一关联：</p><p>关联过程 前序的输出往往是后续过程的输入</p><p><strong>制定项目章程</strong></p><p>批准项目 授权项目经理</p><table><thead><tr><th><strong>输入</strong></th><th><strong>工具与技术</strong></th><th><strong>输出</strong></th></tr></thead><tbody><tr><td>1.项目工作说明书 2.商业论证 3.协议 4.事业环境因素 5.组织过程资产</td><td>1.专家判断 2.引导技术</td><td>项目章程</td></tr></tbody></table><p>作用：</p><ol><li>确定项目经理 规定其权利</li><li>正式确认项目的存在，给项目一个合法的地位</li><li>规定项目的总体目标</li><li>把项目与日常组织关联</li></ol><p><strong>事业环境因素 ：</strong></p><ol><li>组织或公司的文化和组织结构</li><li>政府或者行业的标准</li><li>基础设施</li><li>现有人力资源</li><li>人事管理</li><li>公司工作考核制度</li><li>市场情况</li><li>项目干系人风险承受力</li><li>商业数据库</li><li>项目管理信息系统</li></ol><p>主要是内外部的条件、设施、 环境、 系统</p><p><strong>组织过程资产：</strong></p><ol><li>组织标准过程 如标准、方针 软件生命周期与项目生命周期</li><li>标准指导原则、工作指令、建议评价标准</li><li>模板</li><li>组织沟通要求</li><li>项目收尾指导原则或要求</li><li>财务控制程序</li><li>变更控制程序</li><li>风险控制程勋</li><li>过程测量数据库</li><li>项目档案</li><li>历史信息与教训知识库</li><li>问题和缺陷管理数据库</li><li>配置管理知识库</li><li>财务数据库</li></ol><p><strong>专家判断</strong></p><p>更具有专业性</p><p><strong>引导技术</strong></p><ul><li>头脑风暴</li><li>冲突处理</li><li>问题解决</li><li>会议管理</li></ul><p><strong>项目章程</strong></p><ul><li>项目目的或批准项目的原因</li><li>可测量的项目目标和相关的成功标准</li><li>项目的总体要求</li><li>概括性的项目描述</li><li>项目的主要风险</li><li>里程碑计划</li><li>总体预算</li><li>审批要求</li><li>委派的项目经理 其职责和职权</li><li>发起人或者批准人的姓名个职权</li></ul><p>助记 目的 目标 要审批 风险 进度 预算要审批 项目经理和发起人的职权</p><p>项目选择方法</p><ol><li>净现值计算—&gt;越大越好<pre><code>1.1(第一年) 1.21(第二年) 1.331(第三年)。。。 每年的现金流/上面的参数 相加</code></pre></li><li>投资收益率计算—&gt;越大越好<pre><code>(总的折现收益 - 总的折现成本)/折现成本</code></pre></li><li>投资回收期—&gt;越短越好<pre><code>(累计净值出现正值的年数-1)+出现正值年份的上年累计收益的绝对值/出现正值年份收益值</code></pre></li></ol><p>项目启动会议在项目章程确定之后 一般是项目经理召开</p><p><strong>制定项目管理计划</strong></p><table><thead><tr><th><strong>输入</strong></th><th><strong>工具与技术</strong></th><th><strong>输出</strong></th></tr></thead><tbody><tr><td>1.项目章程 2其他过程的输出 3.事业环境因素 4.组织过程资产</td><td>1.专家判断 2.引导技术</td><td>制定项目管理计划</td></tr></tbody></table><p><strong>项目管理计划</strong></p><p>一、计划过程组的各个子计划过程的全部成果</p><ul><li><p>项目管理团队选择的各个项目管理过程</p></li><li><p>选定过程的实施水平</p></li><li><p>实施过程需要的工具与技术</p></li><li><p>选定过程的方式和方法 包括过程之间的依赖关系和相互作用</p></li><li><p>实现项目目标所执行工作的方式和方法</p></li><li><p>监控变更的方式 方法</p></li><li><p>实施配置管理的方式 犯法</p></li><li><p>实施效果测量基准并使之保持完整的方式 方法</p></li><li><p>项目干系人之间沟通需要与技术</p></li><li><p>项目生命期和对阶段项目的项目阶段</p></li><li><p>高层管理人员为加快解决未解决的问题和处理未做出的决策</p></li></ul><p>二、多个分计划(辅助计划)</p><pre><code>范围 需求 进度 成本 质量 过程改进 资源 沟通 风险 采购 干系人 管理计划</code></pre><p>三、其他组成部分</p><pre><code>里程碑清单 资源日历 进度 成本 质量基准 风险登记册</code></pre><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Sun Jan 19 2020 17:00:11 GMT+0800 (GMT+08:00) --&gt;&lt;p&gt;&lt;strong&gt;项目整体管理&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;整体概述&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;知识领域包括：识别 确认 结
+      
+    
+    </summary>
+    
+    
+      <category term="信息系统项目管理" scheme="http://www.ljchengx.cn/categories/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    
+      <category term="项目" scheme="http://www.ljchengx.cn/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>项目组和项目集管理</title>
