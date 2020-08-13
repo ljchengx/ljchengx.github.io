@@ -23,8 +23,8 @@ script: # 执行脚本，清除缓存，生成静态文件
   - hexo g
 
 after_script:
-  - git config user.name $GIT_NAME
-  - git config user.email $GIT_EMAIL
+  - git config user.name ljcheng
+  - git config user.email 759990553@qq.com
   - sed -i "s/github_token/${github_token}/g" ./_config.yml
   - hexo d
 
