@@ -22,14 +22,20 @@ script: # 执行脚本，清除缓存，生成静态文件
   - hexo clean
   - hexo generate
 
-deploy:
-  provider: pages
-  skip_cleanup: ture # 跳过清理
-  local_dir: public # 需要推送到 GitHub 的静态文件目录 
-  name: $GIT_NAME # 用户名变量
-  email: $GIT_EMAIL # 用户邮箱变量
-  github_token: $GITHUB_TOKEN # GitHub Token 变量
-  keep-history: true # 保持推送记录，以增量提交的方式
-  target-branch: master # 推送的目标分支 local_dir->>master 分支
-  on:
-    branch: hexo # 工作分支
+after_script:
+  - git config user.name $GIT_NAME
+  - git config user.email $GIT_EMAIL
+  - sed -i "s/github_token/${github_token}/g" ./_config.yml
+  - hexo deploy
+
+# deploy:
+#   provider: pages
+#   skip_cleanup:  # 跳过清理
+#   local_dir: public # 需要推送到 GitHub 的静态文件目录 
+#   name: $GIT_NAME # 用户名变量
+#   email: $GIT_EMAIL # 用户邮箱变量
+#   github_token: $GITHUB_TOKEN # GitHub Token 变量
+#   keep-history: true # 保持推送记录，以增量提交的方式
+#   target-branch: master # 推送的目标分支 local_dir->>master 分支
+#   on:
+#     branch: hexo # 工作分支
