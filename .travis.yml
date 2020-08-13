@@ -2,13 +2,18 @@ language: node_js # 编译语言、环境
 
 node_js: stable #Node.js 版本
 
+cache:
+    directories:
+        - node_modules
+
 branches:
   only:
     - hexo # 只有 hexo 分支检出更改才触发 CI
 
 before_install: 
   - export TZ='Asia/Shanghai' #配置时区为东八区 UTC+8
-  - npm install hexo-cli # 安装 hexo
+  - npm install -g hexo
+  - npm install -g hexo-cli
 #  - sudo apt-get install libpng16-dev # 安装 libpng16-dev CI 编译出现相关报错时请取消注释
 
 install:
