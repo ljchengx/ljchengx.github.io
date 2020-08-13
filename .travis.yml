@@ -29,7 +29,7 @@ after_script:
   - git config user.email "759990553@qq.com"
   - git add .
   - git commit -m "Travis CI Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-  - git push --force --quiet "https://${GITHUB_TOKEN}@ljchengx/ljchengx.github.io" master:master
+  - git push --force --quiet "https://${GITHUB_TOKEN}@github.com/ljchengx/ljchengx.github.io" master:master
 # deploy:
 #   provider: pages
 #   skip_cleanup: true # 跳过清理
