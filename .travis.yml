@@ -20,13 +20,13 @@ install:
 
 script: # 执行脚本，清除缓存，生成静态文件
   - hexo clean
-  - hexo generate
+  - hexo g
 
 after_script:
   - git config user.name $GIT_NAME
   - git config user.email $GIT_EMAIL
   - sed -i "s/github_token/${github_token}/g" ./_config.yml
-  - hexo deploy
+  - hexo d
 
 # deploy:
 #   provider: pages
