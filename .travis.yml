@@ -23,10 +23,13 @@ script: # 执行脚本，清除缓存，生成静态文件
   - hexo generate
 
 after_script:
+  - cd ./public
+  - git init
   - git config user.name "ljcheng"
   - git config user.email "759990553@qq.com"
-  - sed -i "s/github_token/${github_token}/g" ./_config.yml
-  - hexo deploy
+  - git add .
+  - git commit -m "Travis CI Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
+  - git push --force --quiet "https://${GITHUB_TOKEN}@ljchengx/ljchengx.github.io" master:master
 # deploy:
 #   provider: pages
 #   skip_cleanup: true # 跳过清理
