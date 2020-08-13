@@ -1,6 +1,6 @@
 language: node_js # 编译语言、环境
 
-node_js: stable #Node.js 版本
+node_js: 12.10.0 #Node.js 版本
 
 cache:
     directories:
