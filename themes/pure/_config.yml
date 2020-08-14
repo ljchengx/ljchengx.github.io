@@ -104,6 +104,9 @@ share:
 github: 
   username: ljchengx  # github username
 
+baidu_push: true
+
+
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
