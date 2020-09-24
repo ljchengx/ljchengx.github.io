@@ -30,15 +30,19 @@ after_script:
   - git config user.email "759990553@qq.com"
   - git add .
   - git commit -m "Travis CI Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-  - git push --force --quiet "https://${GITHUB_TOKEN}@github.com/ljchengx/ljchengx.github.io" master:master
+  - git push --force --quiet "https://${GITHUB_TOKEN}@{GH_REF}" master:master
 
-  - git init
-  - git config user.name "759990553@qq.com"
-  - git config user.email "759990553@qq.com"
-  - git add .
-  - git commit -m "Travis CI Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-  - git remote add origin "https://e.coding.net/ljchengx/ljchengx/ljchengx.git" 
-  - git push -u origin master
+  - git push --force --quiet "https://ljchengx:${coding_token}@${CO_REF}" master:master
+
+
+
+env:
+ global:
+   # Github Pages
+   - GH_REF: github.com/ljchengx/ljchengx.github.io  这里替换你的github仓库地址
+   # Coding Pages
+   - CO_REF: e.coding.net/ljchengx/ljchengx/ljchengx.git  这里替换你的coding仓库地址
+
   
 
 # deploy:
