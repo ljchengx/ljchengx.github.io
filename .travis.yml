@@ -37,7 +37,8 @@ after_script:
   - git config user.email "759990553@qq.com"
   - git add .
   - git commit -m "Travis CI Auto Builder at $(date +'%Y-%m-%d %H:%M:%S')"
-  - git push --force --quiet "https://e.coding.net/ljchengx/ljchengx/ljchengx.git" master:master
+  - git remote add origin "https://e.coding.net/ljchengx/ljchengx/ljchengx.git" 
+  - git push -u origin master
   
 
 # deploy:
