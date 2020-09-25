@@ -5780,7 +5780,7 @@ body.no-sidebar .sidebar {
 
 #title {
   font-size: 13px;
-  margin-top: 5px;
+  margin-top: 13px;
   margin-bottom: 5px;
 }
 
@@ -8577,7 +8577,7 @@ body.okayNav-loaded {
   }
 
   .header #title {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
