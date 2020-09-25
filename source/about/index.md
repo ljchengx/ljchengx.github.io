@@ -20,34 +20,34 @@ sidebar: custom
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>ljchengx</th>
+<th style="text-align: left">Name</th>
+<th style="text-align: left">ljchengx</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center">Email</td>
-<td style="text-align: center">759990553@qq.com</td>
+<td style="text-align: left">Email</td>
+<td style="text-align: left">759990553@qq.com</td>
 </tr>
 <tr>
-<td style="text-align: center">Interest</td>
-<td style="text-align: center">代码开发，项目管理</td>
+<td style="text-align: left">Interest</td>
+<td style="text-align: left">代码开发，项目管理</td>
 </tr>
 <tr>
-<td style="text-align: center">Skills</td>
-<td style="text-align: center"><img src="https://img.shields.io/static/v1?message=Android、、Java&color=66CCFC&style=plastic&logo=appveyor" /> <img src="https://img.shields.io/static/v1?message=项目管理&color=66CCFF&style=plastic&logo=appveyor" /></td>
+<td style="text-align: left">Skills</td>
+<td style="text-align: left"><img src="https://img.shields.io/static/v1?message=Android、、Java&color=66CCFC&style=plastic&logo=appveyor" /> <img src="https://img.shields.io/static/v1?message=项目管理&color=66CCFF&style=plastic&logo=appveyor" /></td>
 </tr>
 <tr>
-<td style="text-align: center">Hobby</td>
-<td style="text-align: center">Game,Car</td>
+<td style="text-align: left">Hobby</td>
+<td style="text-align: left">Game,Car</td>
 </tr>
 <tr>
-<td style="text-align: center">GitHub</td>
-<td style="text-align: center"><a href="https://github.com/ljchengx" target="_blank" rel="noopener">https://github.com/ljchengx</a></td>
+<td style="text-align: left">GitHub</td>
+<td style="text-align: left"><a href="https://github.com/ljchengx" target="_blank" rel="noopener">https://github.com/ljchengx</a></td>
 </tr>
 <tr>
-<td style="text-align: center">WeChat</td>
-<td style="text-align: center"><a href="https://imgchr.com/i/09ROtH"><img  width="130" height="130"src="https://s1.ax1x.com/2020/09/25/09ROtH.png" alt="09ROtH.png" border="0" /></a></td>
+<td style="text-align: left">WeChat</td>
+<td style="text-align: left"><a href="https://imgchr.com/i/09ROtH"><img  width="130" height="130"src="https://s1.ax1x.com/2020/09/25/09ROtH.png" alt="09ROtH.png" border="0" /></a></td>
 </tr>
 </tbody>
 </table>
