@@ -190,7 +190,7 @@ profile:
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: ljchengx
-  author_title: 
+  author_title: 人生若只如初见，何事秋风悲画扇
   author_description: 关注前沿事件，Android C# Java 开发者 热衷项目管理
   location: HeFei, China
   follow: https://github.com/ljchengx
