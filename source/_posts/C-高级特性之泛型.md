@@ -249,7 +249,8 @@ public static T Max<T>(T a, T b) where T : IComparable<T>
 
 先看下面的一个例子（部分用例和图片转自如下引用 如有侵权请联系本人删除）：
 
-[]: cnblogs.com/VVStudy/p/11404300.html
+>  cnblogs.com/VVStudy/p/11404300.html
+>
 
 
 
@@ -278,7 +279,7 @@ public static T Max<T>(T a, T b) where T : IComparable<T>
 
 ```
 
-一图胜前言：
+一图胜千言：
 
 ![](http://5b0988e595225.cdn.sohucs.com/images/20190830/2b7efd63ceb04afa93679ff4f3d52126.png)
 
