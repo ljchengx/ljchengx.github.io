@@ -249,8 +249,9 @@ public static T Max<T>(T a, T b) where T : IComparable<T>
 
 先看下面的一个例子（部分用例和图片转自如下引用 如有侵权请联系本人删除）：
 
-> cnblogs.com/VVStudy/p/11404300.html
->
+[]: cnblogs.com/VVStudy/p/11404300.html
+
+
 
 ```c#
 	interface IFoo<out T>
