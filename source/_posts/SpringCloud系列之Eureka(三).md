@@ -85,7 +85,7 @@ public class OrderStatisticServiceController {
 
 这里在server页面就可以看到已经注册成功。
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614061469859-f3f011d2-1401-4597-a6e5-67eda4705dcf.png?x-oss-process=image%2Fresize%2Cw_1500)
+[![yLCEDI.png](https://s3.ax1x.com/2021/02/23/yLCEDI.png)](https://imgchr.com/i/yLCEDI)
 
 #### 3.服务调用者
 
@@ -170,11 +170,11 @@ public class ResultController {
 
 6.启动并访问看看效果
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614065389227-7b9190f8-7c00-4e23-a09a-d68b20e3f6f2.png?x-oss-process=image%2Fresize%2Cw_1500)
+[![yLCmUf.png](https://s3.ax1x.com/2021/02/23/yLCmUf.png)](https://imgchr.com/i/yLCmUf)
 
 
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614065405766-60e085ba-21cf-4f5f-9089-02fe7dcba2b6.png)
+[![yLCQ2Q.png](https://s3.ax1x.com/2021/02/23/yLCQ2Q.png)](https://imgchr.com/i/yLCQ2Q)
 
 这里看到我们请求的是9994的新的服务调用者工程 但是返回值的服务提供者的结果，说明这里Feign使用成功。
 

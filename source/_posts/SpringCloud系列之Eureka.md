@@ -94,7 +94,7 @@ public class EurekaServerApplication {
 
 4.启动效果如下：
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614060701999-bd8ff98c-44e7-4d83-b2b3-87d2d1d08fdd.png?x-oss-process=image%2Fresize%2Cw_1500)
+[![yL9KXR.png](https://s3.ax1x.com/2021/02/23/yL9KXR.png)](https://imgchr.com/i/yL9KXR)
 
 这里注册服务完成，下面开始处理服务提供者。
 
@@ -171,7 +171,7 @@ public class OrderStatisticServiceController {
 
 这里在server页面就可以看到已经注册成功。
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614061469859-f3f011d2-1401-4597-a6e5-67eda4705dcf.png?x-oss-process=image%2Fresize%2Cw_1500)
+[![yL9176.png](https://s3.ax1x.com/2021/02/23/yL9176.png)](https://imgchr.com/i/yL9176)
 
 #### 4.服务调用者
 
@@ -266,13 +266,13 @@ public class UserCenterController {
 
 6.启动看看
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614061895946-48ad9249-1ff7-4d17-b66a-8d83e5da0d2b.png?x-oss-process=image%2Fresize%2Cw_1500)
+[![yL9JhD.png](https://s3.ax1x.com/2021/02/23/yL9JhD.png)](https://imgchr.com/i/yL9JhD)
 
 这里就出现了两个 我们来试试服务调用者
 
 我们在浏览器页面输入服务调用者的方法http://localhost:9993/user/data/getTodayStatistic/1001
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614061963264-ec5609d4-79a8-49d8-8e33-9440fed2c2c0.png)
+[![yL9N1H.png](https://s3.ax1x.com/2021/02/23/yL9N1H.png)](https://imgchr.com/i/yL9N1H)
 
 这里时候返回的是服务提供者的端口，验证通过，实际上最终方法调用的是9992端口的服务提供者的方法。
 

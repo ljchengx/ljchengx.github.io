@@ -139,7 +139,7 @@ public class OrderStatisticServiceController {
 
 6.启动两个服务提供者我们在注册中心看看效果
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614068959571-ba7ab064-6912-4f14-826f-e3f758702ed4.png?x-oss-process=image%2Fresize%2Cw_1500)
+[![yL9fun.png](https://s3.ax1x.com/2021/02/23/yL9fun.png)](https://imgchr.com/i/yL9fun)
 
 这里两个不同端口的同一个服务的提供者完成。
 
@@ -232,15 +232,15 @@ public class RibbonController {
 
 5.启动并请求
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614069342622-cecf399f-7b06-4c78-9728-bd49b6b680ce.png)
+[![yL9HCF.png](https://s3.ax1x.com/2021/02/23/yL9HCF.png)](https://imgchr.com/i/yL9HCF)
 
 浏览器http://localhost:9996/ribbon/getResult/123456
 
 刷新几次可以看看结果：
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614069407022-f6cf1fa5-4ef9-411c-8e7c-9451f99b468e.png)
+[![yL9Lv9.png](https://s3.ax1x.com/2021/02/23/yL9Lv9.png)](https://imgchr.com/i/yL9Lv9)
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2865550/1614069416372-96648268-89fc-4106-89f6-13b102df5663.png)
+[![yL9vHx.png](https://s3.ax1x.com/2021/02/23/yL9vHx.png)](https://imgchr.com/i/yL9vHx)
 
 这里分别出现了两个不同的结果，变化的就是服务提供者的端口，可以说明我们的ribbon使用成功。
 
