@@ -138,7 +138,7 @@ eureka:
     fetch-registry: true # ⾃⼰就是服务不需要从Eureka Server获取服务信息,默认为true，集群模式下可以改成true
 ```
 
-3.Fegin的接口
+3.Feign的接口
 
 使用Feign来完成服务调用
 
